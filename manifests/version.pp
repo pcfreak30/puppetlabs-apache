@@ -28,7 +28,7 @@ class apache::version {
     'FreeBSD': {
       $default = '2.2'
     }
-    'Amazon': {
+    'Linux': {
       $default = '2.2'
     }
     default: {
