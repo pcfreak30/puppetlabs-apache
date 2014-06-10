@@ -229,7 +229,7 @@ class apache (
         $scriptalias          = '/usr/lib/cgi-bin'
         $access_log_file      = 'access.log'
       }
-      'redhat': {
+      'redhat', 'Linux': {
         $docroot              = '/var/www/html'
         $pidfile              = 'run/httpd.pid'
         $error_log            = 'error_log'
