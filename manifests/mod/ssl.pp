@@ -21,7 +21,7 @@ class apache::mod::ssl (
         $ssl_mutex = 'file:${APACHE_RUN_DIR}/ssl_mutex'
       }
     }
-    'redhat': {
+    'redhat', 'Linux': {
       $ssl_mutex = 'default'
     }
     'freebsd': {
