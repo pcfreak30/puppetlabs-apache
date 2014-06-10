@@ -28,6 +28,9 @@ class apache::version {
     'FreeBSD': {
       $default = '2.2'
     }
+    'Amazon': {
+      $default = '2.2'
+    }
     default: {
       fail("Class['apache::version']: Unsupported osfamily: ${::osfamily}")
     }
